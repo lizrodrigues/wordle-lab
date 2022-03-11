@@ -48,11 +48,11 @@ while guess_count <= 6:
         full_answer = full_answer + "_"
         not_in = not_in + (guess[letter])
     print("These letters were in the right spot:")
-    print([full_answer])
+    print(full_answer)
     print("These letters are in the answer but not in the right spot:")
-    print([right_letter])
+    print(right_letter)
     print("These letters are not in the answer:")
-    print([not_in])
+    print(not_in)
     guess_count += 1
 
 if guess_count > 6:
